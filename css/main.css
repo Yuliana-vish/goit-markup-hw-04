@@ -50,6 +50,7 @@ img {
 	height: auto;
 }
 a {
+	display: block;
 	text-decoration: none;
 }
 
@@ -383,10 +384,10 @@ a {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	margin-bottom: 50px;
 }
 .filter-list {
 	margin-right: 8px;
-	margin-bottom: 50px;
 }
 .filter-list:last-child {
 	margin-right: 0;
