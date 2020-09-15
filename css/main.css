@@ -442,8 +442,7 @@ button {
 }
 .card-text {
 	display: block;
-	margin-left: 24px;
-	margin-top: 20px;
+	padding: 20px 24px;
 }
 .project-title {
 	color: var(--title-text-color);
@@ -460,38 +459,59 @@ button {
 	letter-spacing: 0.03em;
 	text-align: left;
 	margin: 0;
-	margin-bottom: 20px;
 }
 /*footer*/
+footer {
+	background: var(--section-bacground-color);
+}
 .flexbox {
 	display: flex;
 }
-footer {
-	padding-top: 60px;
-	padding-bottom: 60px;
-	background: var(--section-bacground-color);
+.footer-contact {
+	margin: 0;
+	margin-top: 60px;
+	margin-right: 70px;
+	margin-bottom: 60px;
+}
+.logo-footer {
+	font-family: Raleway;
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.2;
+	text-decoration: none;
+}
+.logo-title-footer {
+	color: var(--accent-color);
+	font-weight: 700;
+	font-size: 26px;
+	font-family: Raleway;
 }
 address {
 	display: block;
+	margin: 0;
 	font-size: 14px;
 	line-height: 1.7;
 	letter-spacing: 0.03em;
 	font-style: normal;
 	text-decoration: none;
 	margin-top: 20px;
-	margin-right: 70px;
+}
+address .link {
+	margin-top: 9px;
 }
 .logo-footer,
 .address {
 	color: var(--primary-white-color);
 }
 .address .contact-item {
-	margin-top: 9px;
 	color: rgba(255, 255, 255, 0.6);
 }
 
 /*social-contact*/
-
+.social-contact {
+	margin-top: 72px;
+}
 .invitation-title {
 	font-family: Roboto;
 	font-weight: 700;
@@ -500,7 +520,6 @@ address {
 	color: #ffffff;
 	text-transform: uppercase;
 	margin: 0;
-	margin-top: 15px;
 }
 .social-icon-list {
 	display: flex;
