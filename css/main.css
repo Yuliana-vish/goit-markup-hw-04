@@ -462,18 +462,23 @@ button {
 	color: var(--title-text-color);
 }
 /*footer*/
+
+footer .flexbox {
+	align-items: baseline;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+.footer-contact {
+	margin: 0;
+	margin-right: 70px;
+}
 footer {
 	background: var(--section-bacground-color);
 }
 .flexbox {
 	display: flex;
 }
-.footer-contact {
-	margin: 0;
-	margin-top: 60px;
-	margin-right: 70px;
-	margin-bottom: 60px;
-}
+
 .logo-footer {
 	font-family: Raleway;
 	color: var(--title-text-color);
@@ -510,9 +515,6 @@ address .link {
 }
 
 /*social-contact*/
-.social-contact {
-	margin-top: 72px;
-}
 .invitation-title {
 	font-family: Roboto;
 	font-weight: 700;
